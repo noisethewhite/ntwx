@@ -32,3 +32,7 @@ where = ["src"]
 write_to = "src/ntwx/_version.py"
 version_scheme = "guess-next-dev"
 local_scheme = "node-and-date"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
