@@ -31,7 +31,7 @@ where = ["src"]
 [tool.setuptools_scm]
 write_to = "src/ntwx/_version.py"
 version_scheme = "guess-next-dev"
-local_scheme = "node-and-date"
+local_scheme = "no-local-version"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
