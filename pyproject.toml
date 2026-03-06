@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntwx"
+version = "0.1.0"
+description = "Noise The White's Python Extension Module"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Noise The White" }
+]
+
+dependencies = []
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/noisethewhite/ntwx"
+
+[tool.setuptools.packages.find]
+where = ["src"]
